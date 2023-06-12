@@ -1,2 +1,3 @@
 #!/bin/bash
 sort| uniq | fmt | tr    n 
+sort| uniq | fmt | tr " "  "n" 
